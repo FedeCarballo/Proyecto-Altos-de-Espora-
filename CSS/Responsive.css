@@ -1,0 +1,14 @@
+/* Responsive */
+@media screen and (max-width: 650px) {
+    .nav-link{
+        font-size: 2rem !important;
+    }
+    .body__Project{
+        width: 90%;
+        margin: auto;
+    }
+    .body__Project p {
+        text-align: center;
+        font-size: 1.9vh !important;
+    }
+}

@@ -16,6 +16,8 @@
 
     <link rel="stylesheet" href="/CSS/Responsive.css">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -26,31 +28,53 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" href="#">Inicio</a>
+                <a class="nav-link active" href="#inicio">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">Ubicación</a>
+                <a class="nav-link active" href="#Ubicacion">Ubicación</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">Masterplan</a>
+                <a class="nav-link active" href="#MasterPlan">Masterplan</a>
               </li>
               <li class="nav-item">
               <a class="nav-link active" href="#">Renders</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">Contacto</a>
+                <a class="nav-link active" href="#Contacto">Contacto</a>
                 </li>
             </ul>
           </div>
         </div>
       </nav>
-    <div class="body__logo">
-        <img class="body__logo__Image" src="/Resources/images/Logo altos de espora png blanco.png">
+    <div class="body__logo__Contacto">
+      <img data-aos="fade-up" data-aos-duration="1500" class="body__logo__Image" src="/Resources/images/Logo altos de espora png blanco.png">
+          <div data-aos="fade-up" data-aos-duration="1500" class="card col-9 m-auto contacto" >
+            <h1 >
+              Comuniquese con nosotros
+            </h1>
+            <div class="card-body" id="Contacto">
+                <form method="POST" action="/Resources/php/correo.php">
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" name="nombre">
+                      </div>
+                    <div class="form-group">
+                      <label for="email">Email</label>
+                      <input type="email" class="form-control" id="email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="msg">Para mas información</label>
+                        <textarea type="email" placeholder="ingrese su mensaje aquí" class="form-control" id="msg" name="msg"></textarea>
+                      </div>
+                    <input type="submit" class="btn btn-success boton" name="enviar" value="Enviar">
+                  </form>
+            </div>
+          </div>  
     </div>
-    <div class="body__Project">
-        <div class="Parallax-content">
-                <h1 class="title">Acerca del proyecto</h1>
-        </div>
+    <div class="Parallax-content">
+      <h1 class="title" id="inicio">Acerca del proyecto</h1>
+    </div>
+    <div class="Proyecto">
                 <p>
                 Los Barrios Privados y el Área Comercial Altos de Espora son una oportunidad más que ideal para
                 inversores, comerciantes, empresarios o emprendedores, que proyectan abastecer a un público
@@ -61,20 +85,41 @@
                 - locales comerciales, <br>
                 - locales gastronómicos, <br>
                 - espacios recreativos, y <br>
-                - otras propuestas para la comunidad. <br></p>
-                <p>  
-                Se combina un Área Comercial de 94.500 m2 con Cuatro Barrios Cerrados.
-
-                <p>
-                Los 88 lotes comerciales – mayoristas, minoristas, restaurantes y de esparcimiento – están
-                estratégicamente distribuidos entre espacios verdes y de estacionamiento para conveniencia,
-                comodidad y placer de los vecinos que lo visiten.</p>
-                <p>
-                Altos de Espora es un proyecto ambicioso a la altura de las necesidades de los inversores que
-                buscan nuevas oportunidades de crecimiento mercantil.</p>
-                <p>
-                Los 4 Barrios Cerrados están conformados por 290 lotes, 28.000 m2 de espacio multifamiliar y 18.000
-                m2 de espacio recreativo propio y exclusivo.</p>
+                - otras propuestas para la comunidad <br></p>
+    </div>
+    <div class="Parallax-content2">
+        <h1 class="title" id="Ubicacion">
+          Ubicación
+        </h1>
+    </div>
+    <div class="ubicacion">
+      <div class="texto">
+        <p >
+          En el límite entre Glew y Longchamps, a pocas cuadras de las estaciones de tren de estas localidades, sobre la recientemente asfaltada Avenida Espora en la intersección con la Avenida República y la calle Rivera que conecta los nuevos emprendimientos de la zona rural llega un proyecto ideal para aprovechar el actual desarrollo de la zona  
+        </p>
+      </div>
+      <div class="img">
+        <img class="Ubicacion__Img" src="/Resources/images/Ubicacion.jpeg" alt="">
+      </div>
+    </div>
+    <div class="Parallax-content">
+        <h1 class="title" id="MasterPlan">
+          Masterplan
+        </h1>
+    </div>
+    <div class="MasterPlan">
+      <img class="MasterPlan__img" src="/Resources/images/MasterPlan.jpeg" alt="">
+      <div class="MasterPlan__texto">
+        <p>1. Entrada a barrio cerrado</p>
+        <p>2. Administración - Estacionamiento</p>
+        <p>3. Espacio recreativo</p>
+        <p>4. Vivienda multifamiliar</p>
+        <p>5. Espacio verde público</p>
+        <p>6. Equipamiento comunitario</p>
+        <p>7. Locales comerciales minoristas</p>
+        <p>8. Locales comerciales mayoristas</p>
+      </div>
+      <button class="btn btn-primary Disponibles">ver lotes disponibles</button>
     </div>
 </body>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
@@ -82,5 +127,9 @@
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
         integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
 </html>
