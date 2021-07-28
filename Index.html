@@ -12,6 +12,16 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/media-queries.css">
+
+    <link rel="stylesheet" href="assets/css/carousel.css">
+
+    <link rel="stylesheet" href="CSS/lightbox.min.css">
+
     <link rel="stylesheet" href="/CSS/Index.css">
 
     <link rel="stylesheet" href="/CSS/Responsive.css">
@@ -48,7 +58,7 @@
       </nav>
     <div class="body__logo__Contacto">
       <img data-aos="fade-up" data-aos-duration="1500" class="body__logo__Image" src="/Resources/images/Logo altos de espora png blanco.png">
-          <div data-aos="fade-up" data-aos-duration="1500" class="card col-9 m-auto contacto" >
+          <div data-aos="fade-up" data-aos-duration="1500" class="card m-auto contacto" >
             <h1 >
               Comuniquese con nosotros
             </h1>
@@ -71,21 +81,14 @@
             </div>
           </div>  
     </div>
-    <div class="Parallax-content">
-      <h1 class="title" id="inicio">Acerca del proyecto</h1>
-    </div>
+
     <div class="Proyecto">
                 <p>
-                Los Barrios Privados y el Área Comercial Altos de Espora son una oportunidad más que ideal para
-                inversores, comerciantes, empresarios o emprendedores, que proyectan abastecer a un público
-                creciente con productos y servicios que la zona aún no posee.</p>
+                  Altos de Espora desarrollo urbano, combina un área comercial mayorista, un área urbana minorista rodeada de un espacio verde recreativo de 4 Ha que son la antesala a los 4 barrios cerrados que integran el proyecto.</p>
                 <p>
-                Altos de Espora en una oportunidad más que ideal para quien quiera ser pionero en la zona, ya sea
-                con: <br>
-                - locales comerciales, <br>
-                - locales gastronómicos, <br>
-                - espacios recreativos, y <br>
-                - otras propuestas para la comunidad <br></p>
+                  Altos de Espora viene a ubicarse en ser el centro de servicios en el creciente proyecto urbanístico de Almirante Brown que consta de nuevas habilitaciones para hábitat urbano, barrios abiertos, barrios cerrados, countries y clubes de campo que integran el nuevo espacio urbano </p> 
+                  <p>
+                  De esta manera, Altos de espora se consolida en el centro de abastecimiento de servicios para la zona, brindando 44.000 m2  de espacios públicos, destacamentos policiales, área comercial, mayoristas, áreas de servicio, etc</p>
     </div>
     <div class="Parallax-content2">
         <h1 class="title" id="Ubicacion">
@@ -121,6 +124,41 @@
       </div>
       <button class="btn btn-primary Disponibles">ver lotes disponibles</button>
     </div>
+    <div class="Parallax-content">
+      <h1 class="title" id="MasterPlan">
+        Galeria
+      </h1>
+    </div>
+      <div class="container-fluid">
+        <div id="carousel-example" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner row w-100 mx-auto" role="listbox">
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
+                   <a href="Resources/images/Renders/Render Comercial.png" data-lightbox="roadtrip"> 
+                       <img src="Resources/images/Renders/Render Comercial.png" class="img-fluid mx-auto d-block" alt="img1">
+                    </a>
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <a href="Resources/images/Renders/Render final.png" data-lightbox="roadtrip">    
+                        <img src="Resources/images/Renders/Render final.png" class="img-fluid mx-auto d-block" alt="img2">
+                    </a>
+                </div>
+                <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                    <a href="Resources/images/Logo altos de espora png blanco.png" data-lightbox="roadtrip">
+                        <img src="Resources/images/Logo altos de espora png blanco.png" class="img-fluid mx-auto d-block" alt="img3">
+                    </a>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
+                <img class="carousel__ani__arrow" src="resources/images/arrow-left.svg" aria-hidden="true" alt="Next">
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
+                <img class="carousel__ani__arrow" src="resources/images/arrow-right.svg" aria-hidden="true" alt="Next">
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+  </div>
 </body>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
         integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous">
@@ -132,4 +170,19 @@
     <script>
       AOS.init();
     </script>
+    <!--LIGHTBOX  -->
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <!-- CARUSEL -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
+    <script src="assets/js/jquery.backstretch.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
 </html>
