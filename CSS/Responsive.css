@@ -1,5 +1,6 @@
 /* Responsive */
 @media screen and (max-width: 650px) {
+    /* General */
     .nav-link{
         font-size: 2rem !important;
     }
@@ -11,4 +12,195 @@
         text-align: center;
         font-size: 1.9vh !important;
     }
+    .title{
+        font-size: 8vh;
+    }
+    .Parallax-content{
+        height: 10vh;
+        margin-bottom: 5vh;
+    }
+    
+    .Parallax-content2{
+        height: 10vh;
+        margin-bottom: 5vh;
+    }
+    /* General */
+
+    /* Inicio */
+    .body__logo__Contacto{
+        display: flex;
+        flex-flow: column;
+    }
+    .body__logo__Image{
+        width: 100%;
+    }
+    .contacto{
+        width: 100%;
+    }
+    .contacto h1{
+        font-size: 3vh;
+    }
+    /* Inicio */
+
+    /* Proyecto */
+    .Proyecto p{
+        font-size: 2.2vh;
+        margin-bottom: 4vh;
+    }
+    /* Proyecto */
+    /* Ubicacion */
+    .ubicacion{
+        display: flex;
+        flex-flow: column-reverse;
+        margin-bottom: 3vh;
+    }
+    .ubicacion .texto{
+        width: 97%;
+        margin-top: 3vh;
+    }
+    .ubicacion .texto p{
+        font-size: 2.2vh !important;
+        line-height: 4vh;
+        text-align: center;
+    }
+    .ubicacion .img{
+        width: 100%;
+    }
+    /* Ubicacion */
+
+    /* MasterPlan */
+    .MasterPlan__img{
+        width: 100%;
+    }
+    .MasterPlan__texto{
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+    }
+    .MasterPlan__texto p{
+        font-size: 1.5vh !important;
+    }
+    /* MasterPlan */
+    /* Galery */
+    .galery{
+        width: 100%;
+    }
+
+    .arrow{
+        width: 5vh;
+    }
+    /* Galery */
+    .container-body {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (min-width:651px) and (max-width: 992px){
+    /* Inicio */
+    .body__logo__Contacto{
+        display: flex;
+        flex-flow: column;
+    }
+    .body__logo__Image{
+        width: 60%;
+        margin: auto;
+        margin-bottom: 0px !important;
+    }
+    .contacto{
+        width: 90%;
+        margin: auto !important;
+        margin-bottom: 3vh !important;
+    }
+    .contacto h1{
+        font-size: 4.5vh;
+    }
+    /* Inicio */
+    /* Proyecto */
+    .Proyecto p{
+        font-size: 2.5vh !important;
+        margin-bottom: 5vh;
+    }
+    /* Proyecto */
+    /* Ubicacion */
+    .ubicacion{
+        display: flex;
+        flex-flow: column-reverse;
+        margin-bottom: 3vh;
+    }
+    .ubicacion .texto{
+        width: 97%;
+        margin-top: 3vh;
+    }
+    .ubicacion .texto p{
+        font-size: 2.8vh !important;
+        line-height: 4vh;
+        text-align: center;
+    }
+    .ubicacion .img{
+        width: 100%;
+    }
+    /* Ubicacion */
+
+}
+@media screen and (min-width:400px) and (max-width: 900px) {
+    .container-body {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .column1 label, .column2 label, .column3 ul li {
+        font-size: 2.5vh !important; }
+}
+@media screen and (max-width: 1100px) {
+    .container-body {
+      flex-wrap: wrap; }
+    .column2, .column3 {
+      margin-top: 40px; }
+    .column1 label, .column2 label {
+      font-size: 1.9vh; } }
+      
+@media screen and (min-width:993px) and (max-width: 1100px) {
+        /* Inicio */
+        .body__logo__Image{
+            width: 50%;
+            margin-top: 15vh !important;
+            margin-bottom: 10vh !important;
+        }
+        .contacto{
+            width: 45%;
+            margin: auto !important;
+            margin-bottom: 3vh !important;
+        }
+        .contacto h1{
+            font-size: 4vh;
+        }
+        /* Inicio */
+        /* Proyecto */
+        .Proyecto p{
+            font-size: 2.5vh !important;
+            margin-bottom: 5vh;
+        }
+        /* Proyecto */
+        /* Ubicacion */
+        .ubicacion{
+            margin-bottom: 3vh;
+        }
+        .ubicacion .texto{
+            width: 97%;
+            margin-top: 3vh;
+        }
+        .ubicacion .texto p{
+            width: 90%;
+            margin: auto;
+            font-size: 2.5vh !important;
+            line-height: 5vh;
+            text-align: center;
+        }
+        .ubicacion .img{
+            width: 100%;
+        }
+        /* Ubicacion */
 }
