@@ -33,7 +33,8 @@ body{
     display: flex;
 }
 .body__logo__Image{
-    width: 50%;
+    width: 48%;
+    margin: auto;
 }
 .contacto{
     border-radius: 20px;
