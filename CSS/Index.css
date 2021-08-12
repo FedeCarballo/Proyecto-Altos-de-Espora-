@@ -140,6 +140,17 @@ form label {
 .Ubicacion__Img{ 
     width: 100%;
 }
+.ubicacion__a {
+    margin-top: 2vh;
+}
+.ubicacion__boton {
+    text-align: center;
+    margin-top: 2vh;
+}
+.ubicacion__boton:hover {
+    color: white !important;
+}
+
 .MasterPlan{
     width: 100%;
     display: flex;
@@ -260,17 +271,23 @@ form label {
       
       .container-body {
         display: flex;
-        justify-content: space-between; }
+        justify-content: space-around; }
       
       .column1 {
         max-width: 400px; }
         .column1 h1 {
           font-size: 3vh; }
         .column1 label {
-          color: #c7c7c7; }
+          color: #c7c7c7;
+          text-align: center !important;
+          font-size: 2.3vh !important;
+        }
 
+        .column2 {
+            max-width: 400px;
+        }        
         .column2 img{
-        max-width: 300px;
+        max-width: 220px;
         color: #c7c7c7; }
       
       .column3 {
@@ -279,7 +296,7 @@ form label {
           font-size: 3vh; }
         .column3 ul li {
           margin-top: 10px;
-        font-size: 2vh; }
+        font-size: 2.3vh; }
       
       .row2 {
         display: flex;
