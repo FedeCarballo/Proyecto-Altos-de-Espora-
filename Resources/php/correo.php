@@ -9,7 +9,7 @@
             $header="From: ".$email."\r\n";
             $header.="Reply-To: noreply@example.com"."\r\n";
             $header.="X-Mailer: PHP/".phpversion();
-            $tuCasilla="quilmorepropiedades@gmail.com";
+            $tuCasilla="desarrolloaltosdeespora@gmail.com";
             $mail=mail($tuCasilla,$asunto,$msg,$header);
             if($mail){
                 echo "<script>
